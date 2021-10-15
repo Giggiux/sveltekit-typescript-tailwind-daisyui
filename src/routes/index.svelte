@@ -27,6 +27,7 @@
 	</h2>
 
 	<Counter />
+
 </section>
 
 <style>

@@ -27,11 +27,12 @@
 		</div>
 	</div>
 
-	<button on:click={() => (count += 1)} aria-label="Increase the counter by one">
+	<button class="btm btn-primary" on:click={() => (count += 1)} aria-label="Increase the counter by one">
 		<svg aria-hidden="true" viewBox="0 0 1 1">
 			<path d="M0,0.5 L1,0.5 M0.5,0 L0.5,1" />
 		</svg>
 	</button>
+
 </div>
 
 <style>
